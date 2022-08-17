@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: azure;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color:  white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto modi ipsam culpa, reprehenderit et tempore, aliquam repudiandae exercitationem vitae omnis laborum, amet veritatis corrupti inventore velit quod cupiditate tempora dolorem minima suscipit? Numquam deserunt alias quos officia assumenda explicabo quo, iusto, molestiae ipsam dolorem esse pariatur sint expedita, sit placeat repellat eos? Veniam ab voluptatum odio, pariatur vero, asperiores obcaecati dignissimos facilis sed dicta consequatur aliquam rem velit impedit vitae iusto consectetur nobis suscipit laudantium doloremque. Labore et nobis eligendi commodi temporibus doloribus fugit illo esse perferendis voluptas sit facere, perspiciatis omnis rem at iusto ipsam minima quae. Hic, omnis.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
 </body>
 </html>
